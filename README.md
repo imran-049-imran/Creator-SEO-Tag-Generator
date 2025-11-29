@@ -23,22 +23,25 @@ Simple UI. Lightning fast. 100% free.
 ⚡ Zero External API — works instantly
 
 📁 Project Structure
+
 creator-seo-tag-generator/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/imran/creatorseo/
-│   │   │       ├── controller/
-│   │   │       │   └── SeoController.java
-│   │   │       ├── model/
-│   │   │       │   ├── Video.java
-│   │   │       │   └── TagExtractor.java
-│   │   │       └── CreatorSeoTagGeneratorApplication.java
+│   │   │   └── com/
+│   │   │       └── imran/
+│   │   │           └── creatorseo/
+│   │   │               ├── controller/
+│   │   │               │   └── SeoController.java
+│   │   │               ├── model/
+│   │   │               │   ├── Video.java
+│   │   │               │   └── TagExtractor.java
+│   │   │               └── CreatorSeoTagGeneratorApplication.java
 │   │   └── resources/
 │   │       ├── templates/
 │   │       │   ├── index.html
 │   │       │   └── fragments/
-│   │       │       │   └── navbar.html
+│   │       │       └── navbar.html
 │   │       ├── static/
 │   │       │   ├── css/
 │   │       │   │   └── styles.css
@@ -47,14 +50,8 @@ creator-seo-tag-generator/
 │   │       └── application.properties
 ├── .gitignore
 ├── README.md
-├── pom.xml
+└── pom.xml
 
-🖼️ Screenshots
-⭐ Home Page (Light Mode)
-
-⭐ Home Page (Dark Mode)
-
-If you send your real screenshots, I will replace these placeholder images.
 
 ⚙️ How to Run
 1️⃣ Clone the repository
