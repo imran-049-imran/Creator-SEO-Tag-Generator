@@ -1,6 +1,6 @@
-** ❤️ ** Author ****
-**
-Developed by Imran **
+**  ❤️ Author **
+
+** Developed by Imran **
 **🔗 GitHub: https://github.com/imran-049-imran**
 
 Creator SEO Tag Generator
