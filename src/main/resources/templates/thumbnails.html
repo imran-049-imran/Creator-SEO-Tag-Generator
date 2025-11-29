@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Thumbnail Generator</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(160deg, #0f172a, #1e1b4b, #3b0764);
+            background-attachment: fixed;
+        }
+
+        .main-title {
+            background: linear-gradient(90deg, #60a5fa, #a78bfa, #c084fc);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            backdrop-filter: blur(22px);
+            border-radius: 20px;
+            box-shadow: 0 8px 26px rgba(0,0,0,0.3);
+        }
+
+        .btn-primary {
+            background: linear-gradient(90deg, #2563eb, #7c3aed);
+            color: white;
+            transition: 0.2s;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .error {
+            background: rgba(239,68,68,0.2);
+            border-left: 4px solid #ef4444;
+        }
+    </style>
+
+</head>
+
+<body class="text-slate-200">
+
+<!-- NAVBAR FRAGMENT -->
+<div th:replace="~{fragments/navbar :: navbar}" th:with="activePage='thumbnail'"></div>
+
+<div class="container mx-auto px-4 max-w-2xl mt-12 pb-12">
+
+    <div class="text-center mb-10">
+        <h1 class="main-title text-4xl md:text-5xl font-extrabold">
+            YouTube Thumbnail Generator
+        </h1>
+        <p class="text-slate-300 text-lg mt-4">
+            Paste a YouTube URL or Video ID and get HD thumbnail instantly.
+        </p>
+    </div>
+
+    <div class="card p-6 mb-10">
+
+        <form action="/get-thumbnail" method="post">
+            <label class="block text-sm mb-2">YouTube Video URL or ID</label>
+
+            <input type="text" name="videoUrlOrId"
+                   class="w-full px-4 py-3 rounded-lg bg-white/10 text-white border border-white/20"
+                   placeholder="Enter YouTube video link..."
+                   required>
+
+            <button type="submit"
+                    class="btn-primary w-full mt-6 py-3 rounded-lg flex items-center justify-center gap-2">
+                <i class="bi bi-images"></i> Get Thumbnail
+            </button>
+        </form>
+    </div>
+
+    <!-- Error -->
+    <div th:if="${error}" class="error p-4 mb-4 rounded-lg" th:text="${error}"></div>
+
+    <!-- Thumbnail Result -->
+    <div th:if="${thumbnailUrl}" class="card p-6">
+
+        <h2 class="text-xl font-bold mb-4">
+            HD Thumbnail
+        </h2>
+
+        <img th:src="${thumbnailUrl}" class="rounded-lg mb-4 shadow-lg" />
+
+        <!-- Working Download -->
+        <a th:href="@{/download-thumbnail(url=${thumbnailUrl}, filename=${videoId + '-thumbnail.jpg'})}"
+           class="btn-primary px-4 py-2 rounded-lg inline-flex items-center gap-2">
+            <i class="bi bi-download"></i> Download HD Image
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
