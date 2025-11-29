@@ -1,15 +1,28 @@
-**  ❤️ Author **
-
-** Developed by Imran **
-**🔗 GitHub: https://github.com/imran-049-imran**
-
 Creator SEO Tag Generator
 
-A modern, fast, and minimal web tool built using Spring Boot + Thymeleaf + Tailwind CSS for generating SEO-friendly tags for YouTube creators.
-This tool helps content creators boost video ranking by generating optimized, relevant SEO tags in seconds.
+A modern, fast, and clean tool built with Spring Boot + Thymeleaf + Tailwind CSS that helps creators generate SEO-friendly tags for their YouTube videos instantly.
 
-** Project Structure **
+Simple UI. Lightning fast. 100% free.
 
+🌟 Features
+
+🚀 Generate SEO Tags from any YouTube Title
+
+✨ One-click Copy All Tags button
+
+🌗 Dark Mode + Light Mode
+
+🍎 Apple Minimal UI
+
+📱 Fully Responsive (Mobile + Tablet + Desktop)
+
+♻️ Reusable Thymeleaf Components
+
+🧩 Clean Spring Boot MVC Architecture
+
+⚡ Zero External API — works instantly
+
+📁 Project Structure
 creator-seo-tag-generator/
 ├── src/
 │   ├── main/
@@ -25,7 +38,7 @@ creator-seo-tag-generator/
 │   │       ├── templates/
 │   │       │   ├── index.html
 │   │       │   └── fragments/
-│   │       │       └── navbar.html
+│   │       │       │   └── navbar.html
 │   │       ├── static/
 │   │       │   ├── css/
 │   │       │   │   └── styles.css
@@ -36,40 +49,38 @@ creator-seo-tag-generator/
 ├── README.md
 ├── pom.xml
 
- ** Features **
+🖼️ Screenshots
+⭐ Home Page (Light Mode)
 
-** SEO Tags Generate from any YouTube Title
-One-click “Copy All Tags” button
-Ultra Minimal Apple-style UI
-Dual Mode (Light + Dark)
-Tailwind + Bootstrap Icons integrated
-Fully responsive on mobile, tablet, and desktop
-Thymeleaf Components (Reusable Navbar & Layouts)
-Clean Spring Boot MVC Architecture
-**
+⭐ Home Page (Dark Mode)
 
-** Tech Stack **
+If you send your real screenshots, I will replace these placeholder images.
 
-Layer	Technology
-Backend	Spring Boot, Java
-Frontend	Tailwind CSS, Thymeleaf, Bootstrap Icons
-Build Tool	Maven
-UI Design	Apple Minimal Style
-Clipboard	JavaScript Clipboard API
-
-** How to Run the Project **
-
-** Clone the repository **
+⚙️ How to Run
+1️⃣ Clone the repository
 git clone https://github.com/imran-049-imran/Creator-SEO-Tag-Generator.git
 cd Creator-SEO-Tag-Generator
 
- ** Build & Run the Spring Boot App **
+2️⃣ Run the app
 ./mvnw spring-boot:run
 
-** Open in browser **
+3️⃣ Open in browser
 http://localhost:5050
 
+📦 Technologies Used
+Area	Tech
+Backend	Spring Boot, Java
+Frontend	Tailwind CSS, Thymeleaf
+Icons	Bootstrap Icons
+Build Tool	Maven
+Clipboard	JavaScript Clipboard API
 📄 License
 
-This project is licensed under MIT License.
+This project is licensed under the MIT License.
 
+👨‍💻 Author
+Imran
+
+🔗 GitHub: https://github.com/imran-049-imran
+
+💼 Java Developer | Spring Boot | Full Stack
