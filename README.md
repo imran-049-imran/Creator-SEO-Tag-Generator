@@ -22,6 +22,8 @@ Simple UI. Lightning fast. 100% free.
 
 ⚡ Zero External API — works instantly
 
+
+```
 📁 Project Structure
 
 creator-seo-tag-generator/
@@ -51,6 +53,9 @@ creator-seo-tag-generator/
 ├── .gitignore
 ├── README.md
 └── pom.xml
+```
+
+
 
 
 ⚙️ How to Run
