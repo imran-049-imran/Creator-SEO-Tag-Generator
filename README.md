@@ -1,60 +1,75 @@
-# YouTube SEO Tag Generator
+** ❤️ ** Author ****
+**
+Developed by Imran **
+**🔗 GitHub: https://github.com/imran-049-imran**
 
-A web-based tool built with Spring Boot and Thymeleaf that extracts SEO-friendly tags from YouTube videos based on a given title. Designed to help content creators optimize their video metadata using real-world tag data.
+Creator SEO Tag Generator
 
-##  Project Structure
-youtube-seo-tag-generator/ 
-├── src/ 
-│ ├── main/ 
-│ │ ├── java/ 
-│ │ │ └── com/example/youtubeseo/ 
-│ │ │ ├── controller/ 
-│ │ │ │ └── YouTubeController.java 
-│ │ │ ├── model/ 
-│ │ │ │ ├── Video.java 
-│ │ │ │ └── TagExtractor.java 
-│ │ │ └── YouTubeSeoTagGeneratorApplication.java 
-│ │ └── resources/ 
-│ │ ├── templates/ 
-│ │ │ ├── index.html 
-│ │ │ └── fragments/ 
-│ │ │ └── navbar.html 
-│ │ ├── static/ 
-│ │ │ ├── css/ 
-│ │ │ │ └── styles.css 
-│ │ │ └── js/ 
-│ │ │ └── scripts.js 
-│ │ └── application.properties 
-├── .gitignore 
-├── README.md 
+A modern, fast, and minimal web tool built using Spring Boot + Thymeleaf + Tailwind CSS for generating SEO-friendly tags for YouTube creators.
+This tool helps content creators boost video ranking by generating optimized, relevant SEO tags in seconds.
+
+** Project Structure **
+
+creator-seo-tag-generator/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/imran/creatorseo/
+│   │   │       ├── controller/
+│   │   │       │   └── SeoController.java
+│   │   │       ├── model/
+│   │   │       │   ├── Video.java
+│   │   │       │   └── TagExtractor.java
+│   │   │       └── CreatorSeoTagGeneratorApplication.java
+│   │   └── resources/
+│   │       ├── templates/
+│   │       │   ├── index.html
+│   │       │   └── fragments/
+│   │       │       └── navbar.html
+│   │       ├── static/
+│   │       │   ├── css/
+│   │       │   │   └── styles.css
+│   │       │   └── js/
+│   │       │       │   └── scripts.js
+│   │       └── application.properties
+├── .gitignore
+├── README.md
 ├── pom.xml
 
-## Features
+ ** Features **
 
-- Extract SEO tags from YouTube videos using a title
-- Copy tags to clipboard with one click
-- Dark mode support
-- Tailwind CSS + Bootstrap Icons for modern UI
-- Modular React-ready structure (frontend can be ported easily)
+** SEO Tags Generate from any YouTube Title
+One-click “Copy All Tags” button
+Ultra Minimal Apple-style UI
+Dual Mode (Light + Dark)
+Tailwind + Bootstrap Icons integrated
+Fully responsive on mobile, tablet, and desktop
+Thymeleaf Components (Reusable Navbar & Layouts)
+Clean Spring Boot MVC Architecture
+**
 
-## Tech Stack
+** Tech Stack **
 
-- **Backend**: Spring Boot, Java
-- **Frontend**: Thymeleaf, Tailwind CSS, Bootstrap Icons
-- **Templating**: Thymeleaf fragments
-- **Clipboard API**: JavaScript
+Layer	Technology
+Backend	Spring Boot, Java
+Frontend	Tailwind CSS, Thymeleaf, Bootstrap Icons
+Build Tool	Maven
+UI Design	Apple Minimal Style
+Clipboard	JavaScript Clipboard API
 
-## How to Run
+** How to Run the Project **
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/youtube-seo-tag-generator.git
-   cd youtube-seo-tag-generator
-   
-**Run the Spring Boot app**
-bash
+** Clone the repository **
+git clone https://github.com/imran-049-imran/Creator-SEO-Tag-Generator.git
+cd Creator-SEO-Tag-Generator
+
+ ** Build & Run the Spring Boot App **
 ./mvnw spring-boot:run
 
-**Open in browser**
+** Open in browser **
 http://localhost:5050
-# Creator-SEO-Tag-Generator
+
+📄 License
+
+This project is licensed under MIT License.
+
