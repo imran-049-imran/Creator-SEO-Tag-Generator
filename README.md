@@ -4,23 +4,23 @@ A modern, fast, and clean tool built with Spring Boot + Thymeleaf + Tailwind CSS
 
 Simple UI. Lightning fast. 100% free.
 
-🌟 Features
+ Features
 
-🚀 Generate SEO Tags from any YouTube Title
+ Generate SEO Tags from any YouTube Title
 
-✨ One-click Copy All Tags button
+ One-click Copy All Tags button
 
-🌗 Dark Mode + Light Mode
+ Dark Mode + Light Mode
 
-🍎 Apple Minimal UI
+ Apple Minimal UI
 
-📱 Fully Responsive (Mobile + Tablet + Desktop)
+Fully Responsive (Mobile + Tablet + Desktop)
 
-♻️ Reusable Thymeleaf Components
+ Reusable Thymeleaf Components
 
-🧩 Clean Spring Boot MVC Architecture
+ Clean Spring Boot MVC Architecture
 
-⚡ Zero External API — works instantly
+ Zero External API — works instantly
 
 
 ```
