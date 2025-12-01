@@ -4,7 +4,7 @@ A modern, fast, and clean tool built with Spring Boot + Thymeleaf + Tailwind CSS
 
 Simple UI. Lightning fast. 100% free.
 
-# Website(https://creator-seo-tag-generator-production.up.railway.app/)
+# Website(https://creator-seo-tag-generator-production-d070.up.railway.app/)
 
  # Features
 
