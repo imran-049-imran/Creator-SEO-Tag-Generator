@@ -5,7 +5,8 @@ A modern, fast, and clean tool built with Spring Boot + Thymeleaf + Tailwind CSS
 Simple UI. Lightning fast. 100% free.
 
 <img width="1327" height="618" alt="Screenshot 2025-12-02 095827" src="https://github.com/user-attachments/assets/fd312dff-d702-4b72-b753-efb543bdb5d5" />
-
+<img width="1327" height="606" alt="Screenshot 2025-12-02 095852" src="https://github.com/user-attachments/assets/8b5c8dde-6f24-4aa3-99ea-bc3ad4d97724" />
+<img width="1333" height="610" alt="Screenshot 2025-12-02 095915" src="https://github.com/user-attachments/assets/b60dae04-554f-404c-9a03-5d7250483c4b" />
 
  # Features
 
